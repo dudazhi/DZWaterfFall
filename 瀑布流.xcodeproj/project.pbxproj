@@ -15,6 +15,7 @@
 		E6C0A5191F24ADC200325341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C0A5171F24ADC200325341 /* LaunchScreen.storyboard */; };
 		E6C0A5241F24ADC200325341 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C0A5231F24ADC200325341 /* ___Tests.m */; };
 		E6C0A52F1F24ADC200325341 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C0A52E1F24ADC200325341 /* ___UITests.m */; };
+		E6C0A53E1F24AED400325341 /* DZWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C0A53D1F24AED400325341 /* DZWaterLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E6C0A52A1F24ADC200325341 /* 瀑布流UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "瀑布流UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C0A52E1F24ADC200325341 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		E6C0A5301F24ADC200325341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C0A53C1F24AED400325341 /* DZWaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZWaterLayout.h; sourceTree = "<group>"; };
+		E6C0A53D1F24AED400325341 /* DZWaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZWaterLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 				E6C0A5071F24ADC200325341 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		E6C0A5071F24ADC200325341 /* Products */ = {
 			isa = PBXGroup;
@@ -110,6 +114,8 @@
 				E6C0A5171F24ADC200325341 /* LaunchScreen.storyboard */,
 				E6C0A51A1F24ADC200325341 /* Info.plist */,
 				E6C0A5091F24ADC200325341 /* Supporting Files */,
+				E6C0A53C1F24AED400325341 /* DZWaterLayout.h */,
+				E6C0A53D1F24AED400325341 /* DZWaterLayout.m */,
 			);
 			path = "瀑布流";
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 				TargetAttributes = {
 					E6C0A5051F24ADC200325341 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 44P5AG7E2A;
 						ProvisioningStyle = Automatic;
 					};
 					E6C0A51E1F24ADC200325341 = {
@@ -274,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6C0A5111F24ADC200325341 /* ViewController.m in Sources */,
+				E6C0A53E1F24AED400325341 /* DZWaterLayout.m in Sources */,
 				E6C0A50E1F24ADC200325341 /* AppDelegate.m in Sources */,
 				E6C0A50B1F24ADC200325341 /* main.m in Sources */,
 			);
@@ -426,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44P5AG7E2A;
 				INFOPLIST_FILE = "瀑布流/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-739002833-qq.com.---";
@@ -437,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44P5AG7E2A;
 				INFOPLIST_FILE = "瀑布流/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-739002833-qq.com.---";
@@ -509,6 +519,7 @@
 				E6C0A5351F24ADC200325341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6C0A5361F24ADC200325341 /* Build configuration list for PBXNativeTarget "瀑布流Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +528,7 @@
 				E6C0A5381F24ADC200325341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6C0A5391F24ADC200325341 /* Build configuration list for PBXNativeTarget "瀑布流UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +537,7 @@
 				E6C0A53B1F24ADC200325341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
